@@ -1,0 +1,15 @@
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Infrastructure.deps.json
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Infrastructure.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Infrastructure.pdb
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Domain.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Domain.pdb
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.csproj.AssemblyReference.cache
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.AssemblyInfoInputs.cache
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.AssemblyInfo.cs
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.csproj.CoreCompileInputs.cache
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestMana.5716793C.Up2Date
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/refint/TestManager.Infrastructure.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.pdb
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/ref/TestManager.Infrastructure.dll

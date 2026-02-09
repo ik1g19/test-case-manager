@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ncarSi+uDc=",
+  "success": true,
+  "projectFilePath": "/home/isaac-k/repos/test-case-manager/src/TestManager.Api/TestManager.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/isaac-k/.nuget/packages/microsoft.aspnetcore.openapi/10.0.1/microsoft.aspnetcore.openapi.10.0.1.nupkg.sha512",
+    "/home/isaac-k/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

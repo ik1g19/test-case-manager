@@ -1,0 +1,11 @@
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/bin/Debug/net10.0/TestManager.Domain.deps.json
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/bin/Debug/net10.0/TestManager.Domain.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/bin/Debug/net10.0/TestManager.Domain.pdb
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.AssemblyInfoInputs.cache
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.AssemblyInfo.cs
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.csproj.CoreCompileInputs.cache
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/refint/TestManager.Domain.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.pdb
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/ref/TestManager.Domain.dll
