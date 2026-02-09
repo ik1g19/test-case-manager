@@ -97,3 +97,5 @@
 /home/isaac-k/repos/test-case-manager/tests/TestManager.Domain.Tests/obj/Debug/net10.0/TestManager.Domain.Tests.pdb
 /home/isaac-k/repos/test-case-manager/tests/TestManager.Domain.Tests/obj/Debug/net10.0/TestManager.Domain.Tests.genruntimeconfig.cache
 /home/isaac-k/repos/test-case-manager/tests/TestManager.Domain.Tests/obj/Debug/net10.0/ref/TestManager.Domain.Tests.dll
+/home/isaac-k/repos/test-case-manager/tests/TestManager.Domain.Tests/bin/Debug/net10.0/FluentAssertions.dll
+/home/isaac-k/repos/test-case-manager/tests/TestManager.Domain.Tests/obj/Debug/net10.0/TestManager.Domain.Tests.sourcelink.json

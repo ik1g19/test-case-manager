@@ -9,3 +9,4 @@
 /home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/refint/TestManager.Domain.dll
 /home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.pdb
 /home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/ref/TestManager.Domain.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Domain/obj/Debug/net10.0/TestManager.Domain.sourcelink.json
