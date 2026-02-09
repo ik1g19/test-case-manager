@@ -13,3 +13,6 @@
 /home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/refint/TestManager.Infrastructure.dll
 /home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.pdb
 /home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/ref/TestManager.Infrastructure.dll
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/bin/Debug/net10.0/TestManager.Infrastructure.runtimeconfig.json
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.sourcelink.json
+/home/isaac-k/repos/test-case-manager/src/TestManager.Infrastructure/obj/Debug/net10.0/TestManager.Infrastructure.genruntimeconfig.cache
