@@ -5,6 +5,7 @@
     <Project Path="src/TestManager.Infrastructure/TestManager.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/TestManager.Api.Tests/TestManager.Api.Tests.csproj" />
     <Project Path="tests/TestManager.Domain.Tests/TestManager.Domain.Tests.csproj" />
   </Folder>
 </Solution>

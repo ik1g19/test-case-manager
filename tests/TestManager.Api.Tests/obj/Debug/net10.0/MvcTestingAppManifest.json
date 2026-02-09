@@ -1,0 +1,5 @@
+{
+  "TestManager.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/isaac-k\/repos\/test-case-manager\/src\/TestManager.Api",
+  "TestManager.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/isaac-k\/repos\/test-case-manager\/src\/TestManager.Domain",
+  "TestManager.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/isaac-k\/repos\/test-case-manager\/src\/TestManager.Infrastructure"
+}
