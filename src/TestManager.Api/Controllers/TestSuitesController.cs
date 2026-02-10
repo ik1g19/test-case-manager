@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using TestManager.Api.Dtos.TestSuites;
 using TestManager.Domain.Entities;
 using TestManager.Infrastructure.Persistence;
+using TestManager.Api.Dtos.TestCases;
+using TestManager.Domain.Exceptions;
 
 namespace TestManager.Api.Controllers;
 
@@ -74,7 +76,56 @@ public class TestSuitesController : ControllerBase
         {
             Id = suite.Id,
             Name = suite.Name,
-            TestCaseCount = suite.TestCases.Count
+            TestCaseCount = suite.TestCases.Count,
+            TestCases = suite.TestCases.Select(tc => new TestCaseResponse
+            {
+                Id = tc.Id,
+                Title = tc.Title,
+                Steps = tc.Steps,
+                ExpectedResult = tc.ExpectedResult
+            }).ToList()
+        };
+
+        return Ok(response);
+    }
+
+    [HttpPost("{id:guid}/testcases")]
+    public async Task<ActionResult<TestCaseResponse>> AddTestCase(Guid id, [FromBody] CreateTestCaseRequest request)
+    {
+        if (string.IsNullOrWhiteSpace(request.Title)) return BadRequest("Title is required.");
+        if (string.IsNullOrWhiteSpace(request.Steps)) return BadRequest("Steps is required.");
+        if (string.IsNullOrWhiteSpace(request.ExpectedResult)) return BadRequest("ExpectedResult is required.");
+
+        var suite = await _db.TestSuites
+            .Include(ts => ts.TestCases)
+            .FirstOrDefaultAsync(ts => ts.Id == id);
+
+        if (suite is null)
+            return NotFound();
+
+        var testCase = new TestCase(
+            request.Title.Trim(),
+            request.Steps.Trim(),
+            request.ExpectedResult.Trim());
+
+        try
+        {
+            suite.AddTestCase(testCase); // domain rule lives here
+        }
+        catch (DuplicateTestCaseException ex)
+        {
+            // 409 Conflict is a nice REST-y outcome
+            return Conflict(ex.Message);
+        }
+
+        await _db.SaveChangesAsync();
+
+        var response = new TestCaseResponse
+        {
+            Id = testCase.Id,
+            Title = testCase.Title,
+            Steps = testCase.Steps,
+            ExpectedResult = testCase.ExpectedResult
         };
 
         return Ok(response);

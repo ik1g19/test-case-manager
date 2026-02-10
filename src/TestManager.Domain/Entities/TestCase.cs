@@ -16,4 +16,11 @@ public class TestCase
         Steps = steps;
         ExpectedResult = expectedResult;
     }
+
+    public void Update(string title, string steps, string expectedResult)
+    {
+        Title = title;
+        Steps = steps;
+        ExpectedResult = expectedResult;
+    }
 }
